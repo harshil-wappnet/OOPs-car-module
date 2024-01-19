@@ -73,7 +73,8 @@ abstract class Car extends Engine implements SecurityFeature, Brakes, CarFunctio
     }
 
     public abstract void driveType();
-}```
+}
+```
 
 ### Encapsulation
 Encapsulation is demonstrated with private attributes in the `Car` class, and using getter and setterr method for getting or modifying brand name such as `getbrand()` and `setbrand()`.
@@ -81,11 +82,10 @@ Encapsulation is demonstrated with private attributes in the `Car` class, and us
 ### Inheritance
 The module demonstrates inheritance with the `ElectricCar` class, which inherits from the `Car` class and adds additional attributes and methods specific to electric cars.
 
-``` java
-class ElectricCar extends Car {...}
-class SportsCar extends Car {...}
-class LuxuryCar extends SportsCar implements EntertainmentSystem {...}
-```
+>class ElectricCar extends Car {...}
+>class SportsCar extends Car {...}
+>class LuxuryCar extends SportsCar implements EntertainmentSystem {...}
+
 ### Abstraction
 The concept of abstraction is highlighted through the `Car` abstract class, which defines a common interface for different types of cars.
 
