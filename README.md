@@ -77,19 +77,19 @@ abstract class Car extends Engine implements SecurityFeature, Brakes, CarFunctio
 ```
 
 ### Encapsulation
-Encapsulation is demonstrated with private attributes in the `Car` class, and using getter and setterr method for getting or modifying brand name such as `getbrand()` and `setbrand()`.
+Encapsulation is demonstrated with private attributes in the `Car` class, and using getter and setterr method for getting or modifying brand names such as `getbrand()` and `setbrand()`.
 
 ### Inheritance
 The module demonstrates inheritance with the `ElectricCar` class, which inherits from the `Car` class and adds additional attributes and methods specific to electric cars.
 
 >class ElectricCar extends Car {...}
-<br>
+>
 >class SportsCar extends Car {...}
-<br>
+>
 >class LuxuryCar extends SportsCar implements EntertainmentSystem {...}
 
 ### Abstraction
 The concept of abstraction is highlighted through the `Car` abstract class, which defines a common interface for different types of cars.
 
 ### Polymorphism
-Polymorphism is demonstrated through method overriding in the `ElectricCar` and `SportsCar` classes. The `driveType()` method in ElectricCar, providing a specialized implementation for electric cars.
+Polymorphism is demonstrated through method overriding in the `ElectricCar` and `SportsCar` classes. The `driveType()` method in ElectricCar, provides a specialized implementation for electric cars.
