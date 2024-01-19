@@ -83,7 +83,9 @@ Encapsulation is demonstrated with private attributes in the `Car` class, and us
 The module demonstrates inheritance with the `ElectricCar` class, which inherits from the `Car` class and adds additional attributes and methods specific to electric cars.
 
 >class ElectricCar extends Car {...}
+<br>
 >class SportsCar extends Car {...}
+<br>
 >class LuxuryCar extends SportsCar implements EntertainmentSystem {...}
 
 ### Abstraction
