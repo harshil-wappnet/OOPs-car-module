@@ -7,7 +7,7 @@ This module provides a basic implementation of Object-Oriented Programming (OOP)
     - [Encapsulation](#encapsulation)
     - [Inheritance](#inheritance)
     - [Abstraction](#abstraction)
-    - [Polymorphism] (#polymorphism)
+    - [Polymorphism](#polymorphism)
 
 ## Introduction
 
