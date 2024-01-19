@@ -16,7 +16,7 @@ The OOPs Car Module demonstrates fundamental Object-Oriented Programming concept
 ## Class Structure
 
 ### Car Class
-The `Car` class represents a generic car and extends `Engine` class and implements certain interface such as `SecurityFeature`,`Brakes`,`CarFunctionality`. It contains certain attributes such as `model`,`brand`, `doorlocked` and `style`.
+The `Car` class represents a generic car and extends `Engine` class and implements certain interface such as `SecurityFeature`,`Brakes`,`CarFunctionality`. It contains certain attributes such as `model`,`brand`, `doorlocked` and `style`. 
 
 ```java
 abstract class Car extends Engine implements SecurityFeature, Brakes, CarFunctionality {
@@ -77,7 +77,7 @@ abstract class Car extends Engine implements SecurityFeature, Brakes, CarFunctio
 ```
 
 ### Encapsulation
-Encapsulation is demonstrated with private attributes in the `Car` class, and using getter and setterr method for getting or modifying brand name such as `getbrand()` and `setbrand()`.
+Encapsulation is demonstrated with private attributes in the `Car` class, and using getter and setterr method for getting or modifying brand name such as `getbrand()` and `setbrand()`. Using private and protected access specifiers.
 
 ### Inheritance
 The module demonstrates inheritance with the `ElectricCar` class, which inherits from the `Car` class and adds additional attributes and methods specific to electric cars.
